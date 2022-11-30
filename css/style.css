@@ -1,0 +1,159 @@
+/* anton-regular - latin */
+@font-face {
+  font-family: "Anton";
+  font-style: normal;
+  font-weight: 400;
+  src: url("../fonts/anton-v23-latin-regular.woff2") format("woff2"),
+    url("../fonts/anton-v23-latin-regular.woff") format("woff");
+}
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: "Anton", sans-serif;
+}
+a {
+  text-decoration: none;
+  color: #fff;
+}
+ul,
+ol {
+  list-style: none;
+}
+header {
+  background-image: url(../rasmlar/bg.jpg);
+  width: 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  color: #fff;
+  height: 900px;
+}
+.continer {
+  width: 100%;
+  max-width: 1230px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+.logo-nav {
+  display: flex;
+}
+.navigation {
+  display: flex;
+}
+.navigation-link {
+  display: flex;
+  gap: 40px;
+  margin-left: 60px;
+  padding-top: 12px;
+}
+.header-continer {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 57px;
+}
+.navigation-text {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 21.08px;
+}
+.tell {
+  font-size: 17px;
+  font-weight: 400;
+  line-height: 26px;
+  padding-top: 12px;
+}
+.logo {
+  margin-bottom: 216px;
+}
+button {
+  padding: 18px 23px;
+  background: linear-gradient(
+    105.89deg,
+    rgba(0, 0, 0, 0.1) 5.05%,
+    rgba(0, 0, 0, 0) 112.97%
+  );
+  color: #fff;
+  border: 1px solid #fff;
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 26px;
+}
+.book:hover {
+  background-color: #fff;
+  cursor: pointer;
+}
+h2 {
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 45.16px;
+  letter: 10%;
+}
+h1 {
+  font-weight: 400;
+  font-size: 100px;
+  line-height: 150.54px;
+  text-transform: uppercase;
+  margin-bottom: 19px;
+}
+.main-h {
+  text-transform: uppercase;
+  font-weight: 400;
+  font-size: 50px;
+  line-height: 75.27px;
+  color: #000;
+  margin-bottom: 58px;
+}
+.main {
+  padding-top: 113px;
+  justify-content: space-between;
+}
+.building {
+  display: flex;
+  justify-content: space-between;
+}
+.building-h {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 25px;
+  line-height: 38px;
+  text-transform: uppercase;
+  color: #000000;
+  margin-bottom: 19px;
+}
+.building-p {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  color: #000000;
+  width: 564px;
+  margin-bottom: 67px;
+}
+p {
+  font-family: "open sans", sans-serif;
+}
+.imgs {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 114px;
+}
+.footer {
+  display: flex;
+  padding-bottom: 90px;
+}
+.project {
+  color: #000;
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 20px;
+}
+.project:nth-last-of-type(1) {
+  margin-left: 55px;
+}
